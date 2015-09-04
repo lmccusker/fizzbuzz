@@ -11,7 +11,7 @@ var fizzbuzz = function(n) {
 		//alert the user they need to enter a number
 		alert('Please enter a number!');
 		//clear out input
-		$('#input-number').empty();
+		$('#input-number').val('');
 	}
 	else {
 		//pull answer div into a variable
